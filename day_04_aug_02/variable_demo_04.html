@@ -1,0 +1,19 @@
+<script>
+    function test(){
+        if(true){
+            var a=10;
+            console.log('block',a); //10
+        }
+        console.log('function',a); //10
+    }
+    test();
+
+    function test1(){
+        if(true){
+            let b=10;
+            console.log('block',b);
+        }
+        //console.log('function',b);
+    }
+    test1();
+</script>

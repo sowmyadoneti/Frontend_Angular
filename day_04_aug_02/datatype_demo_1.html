@@ -1,0 +1,17 @@
+<script>
+    let str='sachin';  // primitive immutable
+    str[0]='a';
+    str[1]='b';
+    console.log(str);
+
+    let arr=[10,20,30,40]; //non primitive mutable
+    arr[0]=15;
+    arr[1]=25;
+    console.log(arr);
+
+    console.log(10==10); //true
+    console.log('hi'=='hi'); //true {primitive values are compared}
+
+    console.log([10,20]==[10,20]); // false
+    console.log({}=={}); //false {non premitive address are compared}
+</script>

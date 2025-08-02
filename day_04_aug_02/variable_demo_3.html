@@ -1,0 +1,21 @@
+<script>
+    var a=10;
+    console.log(a);
+    var a=2000;
+    console.log(a);
+
+    //let a=3000;
+    //console.log(a);
+
+    let x=1000;
+    console.log('global scope',x);
+    function f1(){
+        let x=2000;
+        console.log('function scope',x);
+        if(true){
+            let x=3000;
+            console.log('block scope',x);
+        }
+    }
+    f1();
+</script>
